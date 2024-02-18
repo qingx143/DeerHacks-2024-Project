@@ -62,7 +62,7 @@ void setup() {
   
   // initalise variables
   mainFont = createFont("Catways.otf", 100);
-  mode = MAIN;
+  mode = INTRO;
   
   homeBackground = loadImage("CatHomeBackground.png");
   catImage = loadImage("catImage.png");
