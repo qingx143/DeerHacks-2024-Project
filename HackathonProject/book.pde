@@ -1,9 +1,9 @@
 void book() {
   background(backColour);
   if (pageCount == 1)
-    image(taxFacts1, 400, 325, 800, 800);
-  if (pageCount == 2)
     image(taxFacts2, 400, 325, 800, 800);
+  if (pageCount == 2)
+    image(taxFacts1, 400, 325, 800, 800);
   
   noStroke();
   buttons(700, 300, 150, 50, 30, textColour);
